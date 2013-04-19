@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6025DB9171C05170047ED91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6025DB8171C05170047ED91 /* UIKit.framework */; };
+		F6025DBB171C05170047ED91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6025DBA171C05170047ED91 /* Foundation.framework */; };
+		F6025DBD171C05170047ED91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6025DBC171C05170047ED91 /* CoreGraphics.framework */; };
+		F6025DC3171C05170047ED91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6025DC1171C05170047ED91 /* InfoPlist.strings */; };
+		F6025DC5171C05170047ED91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6025DC4171C05170047ED91 /* main.m */; };
+		F6025DC9171C05170047ED91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6025DC8171C05170047ED91 /* AppDelegate.m */; };
+		F6025DCB171C05170047ED91 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F6025DCA171C05170047ED91 /* Default.png */; };
+		F6025DCD171C05170047ED91 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6025DCC171C05170047ED91 /* Default@2x.png */; };
+		F6025DCF171C05170047ED91 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6025DCE171C05170047ED91 /* Default-568h@2x.png */; };
+		F6025DD7171C05180047ED91 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6025DD6171C05180047ED91 /* SenTestingKit.framework */; };
+		F6025DD8171C05180047ED91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6025DB8171C05170047ED91 /* UIKit.framework */; };
+		F6025DD9171C05180047ED91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6025DBA171C05170047ED91 /* Foundation.framework */; };
+		F6025DE1171C05180047ED91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6025DDF171C05180047ED91 /* InfoPlist.strings */; };
+		F6025DE4171C05180047ED91 /* Reference_CountingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6025DE3171C05180047ED91 /* Reference_CountingTests.m */; };
+		F6025DF2171C05800047ED91 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6025DF1171C05800047ED91 /* MainNavigationController.m */; };
+		F6025DF5171C05D90047ED91 /* AppTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6025DF4171C05D90047ED91 /* AppTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6025DDA171C05180047ED91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6025DAD171C05170047ED91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6025DB4171C05170047ED91;
+			remoteInfo = "Reference Counting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6025DB5171C05170047ED91 /* Reference Counting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reference Counting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6025DB8171C05170047ED91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6025DBA171C05170047ED91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6025DBC171C05170047ED91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6025DC0171C05170047ED91 /* Reference Counting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reference Counting-Info.plist"; sourceTree = "<group>"; };
+		F6025DC2171C05170047ED91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6025DC4171C05170047ED91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6025DC6171C05170047ED91 /* Reference Counting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reference Counting-Prefix.pch"; sourceTree = "<group>"; };
+		F6025DC7171C05170047ED91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6025DC8171C05170047ED91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6025DCA171C05170047ED91 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F6025DCC171C05170047ED91 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F6025DCE171C05170047ED91 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F6025DD5171C05180047ED91 /* Reference CountingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reference CountingTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6025DD6171C05180047ED91 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F6025DDE171C05180047ED91 /* Reference CountingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reference CountingTests-Info.plist"; sourceTree = "<group>"; };
+		F6025DE0171C05180047ED91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6025DE2171C05180047ED91 /* Reference_CountingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reference_CountingTests.h; sourceTree = "<group>"; };
+		F6025DE3171C05180047ED91 /* Reference_CountingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reference_CountingTests.m; sourceTree = "<group>"; };
+		F6025DF0171C05800047ED91 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		F6025DF1171C05800047ED91 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		F6025DF3171C05D90047ED91 /* AppTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTableViewController.h; sourceTree = "<group>"; };
+		F6025DF4171C05D90047ED91 /* AppTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6025DB2171C05170047ED91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6025DB9171C05170047ED91 /* UIKit.framework in Frameworks */,
+				F6025DBB171C05170047ED91 /* Foundation.framework in Frameworks */,
+				F6025DBD171C05170047ED91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6025DD1171C05180047ED91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6025DD7171C05180047ED91 /* SenTestingKit.framework in Frameworks */,
+				F6025DD8171C05180047ED91 /* UIKit.framework in Frameworks */,
+				F6025DD9171C05180047ED91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6025DAC171C05170047ED91 = {
+			isa = PBXGroup;
+			children = (
+				F6025DBE171C05170047ED91 /* Reference Counting */,
+				F6025DDC171C05180047ED91 /* Reference CountingTests */,
+				F6025DB7171C05170047ED91 /* Frameworks */,
+				F6025DB6171C05170047ED91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6025DB6171C05170047ED91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6025DB5171C05170047ED91 /* Reference Counting.app */,
+				F6025DD5171C05180047ED91 /* Reference CountingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6025DB7171C05170047ED91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6025DB8171C05170047ED91 /* UIKit.framework */,
+				F6025DBA171C05170047ED91 /* Foundation.framework */,
+				F6025DBC171C05170047ED91 /* CoreGraphics.framework */,
+				F6025DD6171C05180047ED91 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6025DBE171C05170047ED91 /* Reference Counting */ = {
+			isa = PBXGroup;
+			children = (
+				F6025DF0171C05800047ED91 /* MainNavigationController.h */,
+				F6025DF1171C05800047ED91 /* MainNavigationController.m */,
+				F6025DF3171C05D90047ED91 /* AppTableViewController.h */,
+				F6025DF4171C05D90047ED91 /* AppTableViewController.m */,
+				F6025DC7171C05170047ED91 /* AppDelegate.h */,
+				F6025DC8171C05170047ED91 /* AppDelegate.m */,
+				F6025DBF171C05170047ED91 /* Supporting Files */,
+			);
+			path = "Reference Counting";
+			sourceTree = "<group>";
+		};
+		F6025DBF171C05170047ED91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6025DC0171C05170047ED91 /* Reference Counting-Info.plist */,
+				F6025DC1171C05170047ED91 /* InfoPlist.strings */,
+				F6025DC4171C05170047ED91 /* main.m */,
+				F6025DC6171C05170047ED91 /* Reference Counting-Prefix.pch */,
+				F6025DCA171C05170047ED91 /* Default.png */,
+				F6025DCC171C05170047ED91 /* Default@2x.png */,
+				F6025DCE171C05170047ED91 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6025DDC171C05180047ED91 /* Reference CountingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6025DE2171C05180047ED91 /* Reference_CountingTests.h */,
+				F6025DE3171C05180047ED91 /* Reference_CountingTests.m */,
+				F6025DDD171C05180047ED91 /* Supporting Files */,
+			);
+			path = "Reference CountingTests";
+			sourceTree = "<group>";
+		};
+		F6025DDD171C05180047ED91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6025DDE171C05180047ED91 /* Reference CountingTests-Info.plist */,
+				F6025DDF171C05180047ED91 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6025DB4171C05170047ED91 /* Reference Counting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6025DE7171C05180047ED91 /* Build configuration list for PBXNativeTarget "Reference Counting" */;
+			buildPhases = (
+				F6025DB1171C05170047ED91 /* Sources */,
+				F6025DB2171C05170047ED91 /* Frameworks */,
+				F6025DB3171C05170047ED91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reference Counting";
+			productName = "Reference Counting";
+			productReference = F6025DB5171C05170047ED91 /* Reference Counting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6025DD4171C05180047ED91 /* Reference CountingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6025DEA171C05180047ED91 /* Build configuration list for PBXNativeTarget "Reference CountingTests" */;
+			buildPhases = (
+				F6025DD0171C05180047ED91 /* Sources */,
+				F6025DD1171C05180047ED91 /* Frameworks */,
+				F6025DD2171C05180047ED91 /* Resources */,
+				F6025DD3171C05180047ED91 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6025DDB171C05180047ED91 /* PBXTargetDependency */,
+			);
+			name = "Reference CountingTests";
+			productName = "Reference CountingTests";
+			productReference = F6025DD5171C05180047ED91 /* Reference CountingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6025DAD171C05170047ED91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = tester1;
+			};
+			buildConfigurationList = F6025DB0171C05170047ED91 /* Build configuration list for PBXProject "Reference Counting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6025DAC171C05170047ED91;
+			productRefGroup = F6025DB6171C05170047ED91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6025DB4171C05170047ED91 /* Reference Counting */,
+				F6025DD4171C05180047ED91 /* Reference CountingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6025DB3171C05170047ED91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6025DC3171C05170047ED91 /* InfoPlist.strings in Resources */,
+				F6025DCB171C05170047ED91 /* Default.png in Resources */,
+				F6025DCD171C05170047ED91 /* Default@2x.png in Resources */,
+				F6025DCF171C05170047ED91 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6025DD2171C05180047ED91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6025DE1171C05180047ED91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F6025DD3171C05180047ED91 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6025DB1171C05170047ED91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6025DC5171C05170047ED91 /* main.m in Sources */,
+				F6025DC9171C05170047ED91 /* AppDelegate.m in Sources */,
+				F6025DF2171C05800047ED91 /* MainNavigationController.m in Sources */,
+				F6025DF5171C05D90047ED91 /* AppTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6025DD0171C05180047ED91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6025DE4171C05180047ED91 /* Reference_CountingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6025DDB171C05180047ED91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6025DB4171C05170047ED91 /* Reference Counting */;
+			targetProxy = F6025DDA171C05180047ED91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6025DC1171C05170047ED91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6025DC2171C05170047ED91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6025DDF171C05180047ED91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6025DE0171C05180047ED91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6025DE5171C05180047ED91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6025DE6171C05180047ED91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6025DE8171C05180047ED91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reference Counting/Reference Counting-Prefix.pch";
+				INFOPLIST_FILE = "Reference Counting/Reference Counting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6025DE9171C05180047ED91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reference Counting/Reference Counting-Prefix.pch";
+				INFOPLIST_FILE = "Reference Counting/Reference Counting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6025DEB171C05180047ED91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Reference Counting.app/Reference Counting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reference Counting/Reference Counting-Prefix.pch";
+				INFOPLIST_FILE = "Reference CountingTests/Reference CountingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F6025DEC171C05180047ED91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Reference Counting.app/Reference Counting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reference Counting/Reference Counting-Prefix.pch";
+				INFOPLIST_FILE = "Reference CountingTests/Reference CountingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6025DB0171C05170047ED91 /* Build configuration list for PBXProject "Reference Counting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6025DE5171C05180047ED91 /* Debug */,
+				F6025DE6171C05180047ED91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6025DE7171C05180047ED91 /* Build configuration list for PBXNativeTarget "Reference Counting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6025DE8171C05180047ED91 /* Debug */,
+				F6025DE9171C05180047ED91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6025DEA171C05180047ED91 /* Build configuration list for PBXNativeTarget "Reference CountingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6025DEB171C05180047ED91 /* Debug */,
+				F6025DEC171C05180047ED91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6025DAD171C05170047ED91 /* Project object */;
+}
